@@ -25,6 +25,7 @@
         "maintenance"
     ],
     'data': [
-       'views/partnerCusotmization.xml',
+       'views/partnerCusotmizatio'n.xml',
+       'views/product_template.xml,
     ],
 }
