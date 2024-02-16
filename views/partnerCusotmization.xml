@@ -7,13 +7,11 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
-
-
-            
- <group name="purchase" position="inside">
- <field name="is_supplier"/>
- <field name="supplier_category" attrs="{'invisible':[('is_supplier', '!=', True)]}"/>
- </group>
+                <field name ="lang" position="after">
+                <field name="bank_name" />
+                <field name="Branch_name" />
+                <field name="bank_ac_num" />
+                </field>
             </field>
         </record>
 </data>
